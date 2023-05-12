@@ -6,7 +6,7 @@ export default function Gamescreen() {
             <div className='poker-table'>
 
             </div>
-                
+                bhgfgg
             {/* <div>
                 <img src="../../../assets/seatgreen.png" width={100} height={100} alt='seat'/>
             </div>
