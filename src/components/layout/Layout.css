@@ -1,0 +1,31 @@
+.layout-div {
+    width: 100%;
+    height: 100vh;
+    background-color: #ca0606fc;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.logo-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    font-family: fantasy;
+}
+
+.layout-label {
+    color: white;
+    font-family: system-ui;
+    font-size: 18px;
+    text-align: center;
+}
+
+.layout-label:hover {
+    color: black;
+    font-size: 22px;
+}

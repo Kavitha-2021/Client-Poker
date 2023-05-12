@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.layout-route {
+  display: grid;
+  grid-template-columns: 8% 92%;
+}

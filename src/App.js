@@ -1,24 +1,25 @@
-import logo from './logo.svg';
+//eslint-disable-next-line
+import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
+
+import Login from './components/authentication/Login'
+import Layout from './components/layout/Layout'
+import Gamescreen from './components/gamescreen/Gamescreen'
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="layout-route">
+        <Layout />
+        <div>
+          <Routes>
+            <Route path='/' element={ <Login /> } />
+            <Route path='/game' element={ <Gamescreen /> } />
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
 }
 
