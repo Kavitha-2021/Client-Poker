@@ -1,0 +1,43 @@
+.chips {
+    text-align: center;
+    background: #bc0909;
+    padding: 5px 80px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.username {
+    background: #673AB7;
+    padding: 3px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2px;
+    border-radius: 3px;
+}
+
+.card-2 {
+    position: absolute;
+    top: -90px;
+    left: 100px;
+    background: aliceblue;
+    width: 80px;
+    height: 100px;
+    border-radius: 7px;
+    transform: rotate(20deg);
+    border: 1px solid dimgray;
+}
+
+.card-1 {
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    background: white;
+    top: -90px;
+    left: 50px;
+    border-radius: 7px;
+    transform: rotate(342deg);
+    border: 1px solid dimgray;
+}

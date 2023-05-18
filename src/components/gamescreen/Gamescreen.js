@@ -1,35 +1,33 @@
+import Seat from '../seat/Seat'
+
 import './Gamescreen.css'
 
 export default function Gamescreen() {
     return (
-        <div className='game-screen-div'>
-            <div className='poker-table'>
-
-            </div>
-                bhgfgg
-            {/* <div>
-                <img src="../../../assets/seatgreen.png" width={100} height={100} alt='seat'/>
+        <div className='game-screen-div'>                
+            <div className='seat seat-1'>
+                <Seat />
             </div>
 
-            <div>
-                <img src="../../../assets/seatgreen.png" width={100} height={100} alt='seat'/>
+            <div className='seat seat-2'>
+                <Seat />
             </div>
 
-            <div>
-                <img src="../../../assets/seatgreen.png" width={100} height={100} alt='seat'/> 
+            <div className='seat seat-3'>
+                <Seat />
             </div>
 
-            <div>
-                <img src="../../../assets/seatgreen.png" width={100} height={100} alt='seat'/>
+            <div className='seat seat-4'>
+                <Seat />
             </div>
 
-            <div>
-                <img src="../../../assets/seatgreen.png" width={100} height={100} alt='seat'/>  
+            <div className='seat seat-5'>
+                <Seat />
             </div>
 
-            <div>
-                <img src="../../../assets/seatgreen.png" width={100} height={100} alt='seat'/>  
-            </div> */}
+            <div className='seat seat-6'>
+                <Seat />
+            </div>
         </div>
     )
 }
