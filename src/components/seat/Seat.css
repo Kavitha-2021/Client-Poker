@@ -4,15 +4,14 @@
     padding: 5px 80px;
     border-radius: 5px;
     color: white;
-    font-weight: bold;
     z-index: 1;
+    font-size: 20px;
 }
 
 .username {
     background: #673AB7;
     padding: 3px;
     color: white;
-    font-weight: bold;
     text-align: center;
     margin-top: 2px;
     border-radius: 3px;
@@ -21,13 +20,17 @@
 .card-2 {
     position: absolute;
     top: -90px;
-    left: 100px;
-    background: aliceblue;
+    left: 80px;
+    background: white;
     width: 80px;
     height: 100px;
     border-radius: 7px;
-    transform: rotate(20deg);
+    /* transform: rotate(20deg); */
     border: 1px solid dimgray;
+    font-family: fantasy;
+    /* font-family: cursive; */
+    font-size: 20px;
+    padding: 2px;
 }
 
 .card-1 {
@@ -36,8 +39,67 @@
     position: absolute;
     background: white;
     top: -90px;
-    left: 50px;
+    left: 15px;
     border-radius: 7px;
-    transform: rotate(342deg);
+    /* transform: rotate(342deg); */
     border: 1px solid dimgray;
+    display: grid;
+    grid-template-rows: 30% 70%;
+    font-family: fantasy;
+    /* font-family: cursive; */
+    font-size: 20px;
+    padding: 2px;
+}
+
+.nocard {
+    background-image: url('../../images/card-bg.jpg');
+    border: 3px solid darkgray;
+}
+
+.seat-div {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 50% ;
+    position: fixed;
+}
+
+.chance {
+    border: 1px dashed wheat;
+    box-shadow: 0 0 10px wheat
+}
+
+.nochips {
+    background-color: #bc09098a;
+}
+
+.nousername {
+    background-color: #673ab7b5;
+}
+
+.div-center {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.fold {
+    font-size: 70px;
+    position: absolute;
+    z-index: 2;
+    bottom: 0px;
+    left: 15%;
+    -webkit-text-stroke: 3px;
+    -webkit-text-fill-color: #dfdbdb;
+    font-family: math;
+    font-weight: bolder;
+    text-shadow: 0 0 15px black;
+}
+
+.pop-ups {
+    color: aliceblue;
+    position: absolute;
+    bottom: 100px;
+    font-size: 20px;
+    font-family: cursive;
 }

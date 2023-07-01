@@ -1,10 +1,20 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap'); */
+
 .layout-div {
     width: 100%;
     height: 100vh;
-    background-color: #ca0606fc;
+    background-color: #ca0606d9;
     display: flex;
     flex-direction: column;
     gap: 25px;
+    justify-content: space-between;
+    box-shadow: 0 0 10px black;
+}
+
+.lay-div-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .logo-name {
@@ -16,6 +26,7 @@
 
 .logo {
     font-family: fantasy;
+    /* font-family: 'Bigelow Rules', cursive; */
 }
 
 .layout-label {
@@ -28,4 +39,33 @@
 .layout-label:hover {
     color: black;
     font-size: 22px;
+}
+
+
+#profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+}
+
+#profile-outer-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.avatar {
+    font-size: 35px;
+    background: #353333;
+    padding: 20px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px #332f2f;
+    color: white;
 }

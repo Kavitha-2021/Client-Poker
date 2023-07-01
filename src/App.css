@@ -40,7 +40,6 @@
 .layout-route {
   display: grid;
   grid-template-columns: 8% 92%;
-    background-image: url('../public/assets/background-card.jpg');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+  background: url('../src/images/bbggg.jpg') no-repeat center center fixed;
+  background-size: cover;
 }

@@ -1,0 +1,11 @@
+.coin-label {
+    font-size: 20px;
+    width: 57%;
+    color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
